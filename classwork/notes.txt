@@ -1,0 +1,52 @@
+10/21/13
+
+Chapter 7 Arrays
+
+basics of arrays
+
+treat 2-d arrays as pixels from 0,0 to w-1 and h-1
+1)when you process pixels not from the right hand corner you use an array
+2)if you blend two images it is easier in an array
+3)want to mirror or resize an image
+
+int x[10] is an array of size ten
+x[0]-x[9]
+int is 4 bytes
+x[1000] uses four megabytes
+
+by default array is not initialized
+
+you can initialize an array by using:
+
+1)assignment statements
+ex.
+   int a[5];
+a[0]=3;
+a[2]=5;
+a[4]=a[0]+a[2];
+
+a[5] isn't anything
+2)a[0]=a[1]=a[2]=0;
+
+3)use a for loop
+
+4)int x[]={1,1,2,3,5,8};
+the array is the number of initializers
+they are arranged in the order they are entered
+5)user can fill in the array
+
+process until and user EOF
+in unix user puts in control d to tell end of file
+in dos control z does it
+
+we need to know how many is the max size of the array
+
+how to scan in 100 numbers in an array look at notes from shore
+
+print out values in array x
+
+question
+suppose array x has been loaded with cnt values
+x[0]x[1]x[2]x[3]...x[cnt-1]
+
+look at fibonacci program

@@ -1,0 +1,37 @@
+ a character takes up one byte
+ each character you define in the array takes up a byte
+ char y[]={'A','3','c','c',3};
+ there are five elements in the array so it is five bytes
+ y[0]=5 ASCII
+or'A'
+ y[1]=51 ASCII
+or '3'
+ y[5] is undefined and only goes from 0-4
+char z[20]="Hello World";
+the array has 20 bytes
+11 characters are stored but a NULL character is always placed at the end with double quotes
+z[3] is l
+z[5] is the space
+char name[]="Sam Jones"
+    if set is left empty it will be made the exact right size
+char state[2]="NC";
+this is not ok they didn't leave room for the null character
+needs to have 3 elements
+
+char x[10];
+scanf("%s", x);
+no &
+x is the name of the array
+x is the addressto the 1st element of the array
+
+why %s is better than %c
+1)maintains the null character
+2)skips white space characters
+3)max# of characters the user can enter is one minus size of the array
+4)cannot have whitespace characters
+5)if the user enters in more than 9 characters it will eventually end up a core dump
+
+char fname[20], lname[20]
+scanf("%s %s",fname, lname);
+
+check in the notes
